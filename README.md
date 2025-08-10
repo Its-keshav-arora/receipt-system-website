@@ -1,73 +1,50 @@
-# Welcome to your Lovable project
+# 🚀 Quick Slip – The Smart Receipt System
 
-## Project info
+> **Smart Receipts. Faster Payments. Happier Customers.**  
+> A modern billing & receipt management system built for **Cable TV operators**, **subscription businesses**, and **small-scale service providers**.
+---
 
-**URL**: https://lovable.dev/projects/5dc94cd3-6629-4f84-9a65-f9a32b2bab1e
+## ✨ Features
 
-## How can I edit this code?
+✅ **Customer Management** – Add, update, and delete customers easily.  
+✅ **Payment Processing** – Confirm payments before updating balances.  
+✅ **Thermal Receipt Printing** – Print professional receipts instantly.  
+✅ **Data Export** – Export Excel files sorted by outstanding balance.  
+✅ **Collection History** – Track & export payments by date range.  
+✅ **Secure Authentication** – Encrypted credentials for safety.  
+✅ **Multi-Device Support** – Works on both mobile & desktop.  
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5dc94cd3-6629-4f84-9a65-f9a32b2bab1e) and start prompting.
+## 🖼️ Screenshots
 
-Changes made via Lovable will be committed automatically to this repo.
+| Home Page | Receipt Printing | Customer Management |
+|-----------|-----------------|---------------------|
+| ![Home](./screenshots/home.png) | ![Receipt](./screenshots/receipt.png) | ![Customers](./screenshots/customers.png) |
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Frontend:** React Native (Expo Router)
+- **Backend:** Node.js + Express
+- **Database:** MongoDB
+- **Printing:** Thermal printer integration
+- **Auth:** Secure JWT-based authentication
+- **Export:** Excel (.xlsx) generation with sorting
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 📦 Installation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/quick-slip.git
+cd quick-slip
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 2. Install dependencies
+npm install --legacy-peer-deps
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/5dc94cd3-6629-4f84-9a65-f9a32b2bab1e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+# 3. Start the development server
+npm start
