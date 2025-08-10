@@ -21,7 +21,7 @@
 
 | Home Page | Receipt Printing | Customer Management |
 |-----------|-----------------|---------------------|
-| ![Home](./screenshots/home.png) | ![Receipt](./screenshots/receipt.png) | ![Customers](./screenshots/customers.png) |
+| ![Home](./homePage.png) | ![Receipt](./receipt.png) | ![Customers](./customer.png) |
 
 ---
 
